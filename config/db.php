@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "lampapp";
 $username = "lampuser";
-$password = "StrongPassword123";
+$password = "StrongPassword123!";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
